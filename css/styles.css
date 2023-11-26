@@ -1,0 +1,101 @@
+body {
+    background-color: #710505;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  overflow: hidden;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Times New Roman", Times, serif;
+}
+h1{
+    font-family: "Brush Script MT", "Lucida Console", sans-serif;
+font-weight: normal;
+font-size: 3rem;
+margin: 5px auto;
+}
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+    text-decoration: none;
+    
+    color: white;
+}
+
+img {
+    border: solid white 3px;
+    margin-bottom: 20px;
+    height: 400px;
+    width: auto;
+}
+
+ul,
+ol,li {
+    
+    margin:20px;
+    padding: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+li >h2{
+    padding: 0 20px;
+    background: green;
+    margin-top: -80px;
+    border-radius: 10px;
+}
+
+li{
+    height: 170px;    
+    background-color:white;  
+    border: 10px solid transparent;  /* Set border width and style */
+    border-image: linear-gradient(
+        45deg,      
+        red 5%,     
+        white 10%,
+        green 15%,   
+        white 20%,   
+        red 25%, 
+        green 30%,      
+        red 35%,      
+        white 40%,
+        red 45%,
+        green 50%,
+        white 55%,   
+        red 60%, 
+        green 65%,      
+        red 70%,      
+        white 75%,
+        red 80%,
+        white 85%,   
+        red 90%, 
+        green 95%      
+      );  
+      border-image-slice: 1;
+}
+ul li:nth-child(1) {
+    background: url('../img/rolls.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+ul li:nth-child(2) {
+    background: url('../img/nog.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+ul li:nth-child(3) {
+    background: url('../img/stew.jpg') no-repeat center center;
+    background-size: cover; 
+}
+
+li >p{
+    margin-top: 260px;
+}
