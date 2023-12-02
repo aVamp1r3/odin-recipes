@@ -6,6 +6,13 @@ body {
   /* overflow: hidden; */
 }
 
+h1{
+    font-family: "Brush Script MT", cursive;
+font-weight: normal;
+font-size: 2rem;
+margin: 5px auto;
+}
+
 h2,
 h3,
 h4,
@@ -13,12 +20,7 @@ h5,
 h6 {
     font-family: "Times New Roman", Times, serif;
 }
-h1{
-    font-family: "Brush Script MT", cursive;
-font-weight: normal;
-font-size: 3rem;
-margin: 5px auto;
-}
+
 
 a,
 a:active,
