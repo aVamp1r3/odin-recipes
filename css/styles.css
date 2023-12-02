@@ -57,7 +57,7 @@ li >h2{
 }
 
 li{
-    height: 170px;    
+    height: 150px;    
     background-color:white;  
     border: 10px solid transparent;  /* Set border width and style */
     border-image: linear-gradient(
@@ -100,5 +100,5 @@ ul li:nth-child(3) {
 }
 
 li >p{
-    margin-top: 260px;
+    margin-top: 240px;
 }
