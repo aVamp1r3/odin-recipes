@@ -3,7 +3,7 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 h2,
@@ -31,10 +31,13 @@ a:visited {
 }
 
 img {
+    display: block;
     border: solid white 3px;
     margin-bottom: 20px;
     height: 400px;
     width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul,
